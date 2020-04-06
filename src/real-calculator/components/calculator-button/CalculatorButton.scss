@@ -1,0 +1,29 @@
+@import "src/Colors";
+.btn {
+  border: 1px solid $backgroundColor;
+  color: white;
+  width:25%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  height:100%;
+  outline: none;
+  &:hover{
+    background-color: $buttonColorHover;
+    cursor: pointer;
+  }
+}
+
+.btn-dark{
+  background-color: $buttonColorDark;
+}
+.btn-light{
+  background-color: $buttonColorLight;
+}
+.btn-blue{
+  background-color: $blue;
+  &:hover{
+    background-color: $blueHover;
+  }
+}

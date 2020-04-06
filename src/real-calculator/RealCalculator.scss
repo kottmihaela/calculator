@@ -1,0 +1,16 @@
+@import "src/Colors";
+.calculator-container{
+  height:500px;
+  width:700px;
+  .display{
+    height:25%;
+    background-color: $backgroundColor;
+  }
+  .keyboard{
+    height:75%;
+    background-color:#696969 ;
+    .row{
+      height:calc(100% /6);
+    }
+  }
+}
