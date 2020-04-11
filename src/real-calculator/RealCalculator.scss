@@ -1,7 +1,8 @@
 @import "src/Colors";
 .calculator-container{
-  height:500px;
-  width:700px;
+  height:100%;
+  width:100%;
+  flex:1;
   .display{
     height:25%;
     background-color: $backgroundColor;
