@@ -1,7 +1,7 @@
 @import "src/Colors";
 .btn {
   border: 1px solid $backgroundColor;
-  color: white;
+  color: $textColor;
   width:25%;
   text-align: center;
   text-decoration: none;

@@ -8,8 +8,16 @@
     width:75%;
     flex:1;
     .display{
+      display:flex;
+      justify-content: flex-end;
+      align-items:center;
       height:25%;
       background-color: $backgroundColor;
+      .display-number{
+        font-size: 65px;
+        color:$textColor;
+        font-weight: 500;
+      }
     }
     .keyboard{
       height:75%;

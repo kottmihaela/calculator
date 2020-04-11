@@ -6,7 +6,7 @@ export const RealCalculator = ()=>{
     <div className={"main-container"}>
       <div className={"calculator-container"}>
         <div className={"display"}>
-
+          <span className={"display-number"}>71,231 </span>
         </div>
         <div className={"keyboard"}>
           <div className={"row"}>
